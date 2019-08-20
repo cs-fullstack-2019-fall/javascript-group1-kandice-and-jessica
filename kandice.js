@@ -36,4 +36,45 @@ kandice();
 
 
 let spanishArray = ["rosa", "rojo", "verde", "azul", "amarillo"];
+let englishArray = ['pink', 'red', 'green', 'blue', 'yellow'];
+
+
+
+
+spanishArray.forEach(function (EachNameS)
+{
+    console.log(EachNameS + " is the spanish word for" + englishArray)
+});
 console.log(spanishArray);
+
+
+
+englishArray.forEach(function (EachNameE)
+{
+    console.log("This is the English name for " + EachNameE)
+});
+console.log(englishArray);
+
+// function jessTest() {
+//     // let userInput;
+//     while (userInput !== 'q' || '5')
+//     {
+//         // userInput = prompt("Press 1 to list English to Spanish Translation. Press 2 to list Spanish to English Translation. Press 3 to enter a new English Translation. Press 4 to enter new English Translation. Press 5 or Q to Quit");
+//
+//         if (userInput === '1') {
+//             alert("");
+//         } else if (userInput === '2') {
+//             alert();
+//         } else if (userInput === '3') {
+//             alert();
+//         } else if (userInput === "4") {
+//
+//             alert();
+//         } else {
+//             alert("Goodbye");
+//         }
+//     }
+//
+// }
+// jessTest();
+

@@ -19,6 +19,8 @@
 
 function kandice() {
     alert("Welcome to the Dictionary");
+    // you don't have any code for options 3 or 4
+    // AND you don't do anything with userInput 
     let userInput = prompt(`Press 
 1. for English to Spanish 
 2. for Spanish to English 
@@ -40,7 +42,7 @@ let englishArray = ['pink', 'red', 'green', 'blue', 'yellow'];
 
 
 
-
+// this should onlny be called if the user choses option 1
 spanishArray.forEach(function (EachNameS)
 {
     console.log(EachNameS + " is the spanish word for" + englishArray)
@@ -48,7 +50,7 @@ spanishArray.forEach(function (EachNameS)
 console.log(spanishArray);
 
 
-
+// this should onlny be called if the user choses option 2
 englishArray.forEach(function (EachNameE)
 {
     console.log("This is the English name for " + EachNameE)
